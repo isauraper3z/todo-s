@@ -1,11 +1,3 @@
-// ============================
-// To-Do App (cleaned version)
-// - English comments
-// - Darker green via CSS var
-// - Google Material Symbols for Edit/Delete buttons
-// - LocalStorage persistence
-// ============================
-
 // ---- DOM references ----
 const taskInput = document.getElementById("task-input");
 const newTaskBtn = document.getElementById("newTask");
