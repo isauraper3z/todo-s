@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>To-Do's</title>
+
+  <!-- Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500&family=Roboto+Mono:wght@300;400;500;700&display=swap" rel="stylesheet">
+  <!-- Google Material Symbols (icons) -->
+  <link href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:wght@300;400;600&display=swap" rel="stylesheet"/>
+
+  <link rel="stylesheet" href="styles.css"/>
+</head>
+<body>
+  <div class="container">
+    <div class="stats-container">
+      <div class="details">
+        <h1>ToDo List</h1>
+        <p>Keep it up!</p>
+        <div id="progressBar">
+          <div id="progress"></div>
+        </div>
+      </div>
+      <div class="stats-numbers">
+        <p id="numbers">0/0</p>
+      </div>
+    </div>
+
+    <form action="">
+      <input type="text" id="task-input" placeholder="Write your task"/>
+      <button id="newTask" type="submit">+</button>
+    </form>
+
+    <ul class="task-list"></ul>
+  </div>
+
+  <script src="./app.js"></script>
+</body>
+</html>
